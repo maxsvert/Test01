@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SBKU</title>
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@500&family=Noto+Serif+Khmer:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="generator" content="Hugo 0.118.2" />
+    <title>SBKU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/product/"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .container {
+        padding: 10px;
+      }
+      .video-container {
+        border-radius: 15px;
+        overflow: hidden;
+      }
+      .footer {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+      }
+      .footer p {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-------------Navigation Section--------------------------->
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img src="/img/site-logo.png" alt="" srcset="" class="img-fluid" />
+        </div>
+        <div class="col-9">
+          <div align="right">Lauguage: Khmer | English</div>
+        </div>
+        <div>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" title="x"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"
+                      >Disabled</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!----------------------Carousel Section----------------------->
+    <div class="container">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/slide_img7.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/slide_img8.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/slide_img9.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <img src="/img/promotion.jpg" class="img-fluid" alt="..." />
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Ming Chi University of Technology
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Ming Chi
+                University of Technology.
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Dharma Drum Institute of Liberal Art
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Dharma
+                Drum Institute of Liberal Art
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                កម្មវិធីចុះហត្ថលេខា លើអនុស្សារណ យោគយល់គ្នាជាមួយ សាកលវិទ្យាល័យ
+                Nanhua University
+              </h5>
+              <p class="card-text">
+                សូមអបអរសាទរ សាកលវិទ្យាល័យសម្ដេច ព្រះមហាសង្ឃរាជ បួរ គ្រី
+                ក្រោមការដឹកនាំ របស់សម្តេចព្រះមង្គលទេពាចារ្យ វង្ស អានេតា
+                សម្ដេចព្រះ សាកលវិទ្យាធិការ
+                បានធ្វើកិច្ចសហប្រតិបត្តិការផ្លាស់ប្ដូរនិស្សិត
+                និងចុះហត្ថលេខាលើអនុស្សារណយោគយល់ គ្នាជាមួយសាកលវិទ្យាល័យ Nanhua
+                University
+              </p>
+              <button type="button" class="btn btn-danger">ព័ត៌មានលំអិត</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------Video Section------------------------>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <h5 class="card-header">YouTube Video Example</h5>
+            <div class="card-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/s4b6iw_aqZg?si=XJMS1jg7G8ohupKN"
+                  title="YouTube video player"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <h5 class="card-header">YouTube Video Example</h5>
+            <div class="card-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/s4b6iw_aqZg?si=XJMS1jg7G8ohupKN"
+                  title="YouTube video player"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <h5 class="card-header">YouTube Video Example</h5>
+            <div class="card-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/s4b6iw_aqZg?si=XJMS1jg7G8ohupKN"
+                  title="YouTube video player"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <h5 class="card-header">YouTube Video Example</h5>
+            <div class="card-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/s4b6iw_aqZg?si=XJMS1jg7G8ohupKN"
+                  title="YouTube video player"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contianer">
+      <footer class="footer py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 mb-4">
+              <img
+                src="/img/site-logo.png"
+                alt=""
+                srcset=""
+                class="img-fluid"
+              />
+
+              <p>Copyright by San Vert, 2024</p>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <h5>Services</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">SEO</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <h5>Contact</h5>
+              <p>Email: sanvert2023@gmail.com</p>
+              <p>Phone: 0979078615</p>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <h5>Follow Us</h5>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#"><i class="bi bi-facebook" title="f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="bi bi-twitter" title="d"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="bi bi-instagram" title="s"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
